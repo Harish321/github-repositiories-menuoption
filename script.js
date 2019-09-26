@@ -1,6 +1,6 @@
 var interVal = setInterval(function(){
     var a = document.getElementById('added-repo-to-menu');
-    if(a != "" && a != null && typeof a != 'undefined'){
+    if(!a){
         clearInterval(interVal);
     }
     else{
